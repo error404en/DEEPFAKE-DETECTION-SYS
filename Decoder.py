@@ -17,6 +17,8 @@ CORS(app, resources={r"/*": {"origins": [
 ]}}, supports_credentials=True)
 
 
+#decoder file
+
 UPLOAD_FOLDER = "uploads"
 CHECKPOINTS = "checkpoints"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
